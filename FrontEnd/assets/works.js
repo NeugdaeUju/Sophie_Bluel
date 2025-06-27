@@ -9,6 +9,8 @@ function generateWorks(works) {
 
         // Récupértion de l'élément du DOM qui accueillera les élements
         const sectionGallery = document.querySelector(".gellery");
+        // Création d'une balise dédier à un travail
+        const workElement = document.createElement("figure");
     }
 
 }
