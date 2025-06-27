@@ -25,3 +25,6 @@ function generateWorks(works) {
     };
 
 }
+
+// Appel de la fonction pour générer la gallery dynamiquement
+generateWorks(works);
