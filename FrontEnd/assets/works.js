@@ -12,8 +12,11 @@ function generateWorks(works) {
         // Création d'une balise dédier à un travail
         const workElement = document.createElement("figure");
         // Création des balises de contenu
-        const immageElement = document.createElement("img");
+        const imageElement = document.createElement("img");
+        imageElement.src = works.imageUrl;
         const captionElement = document.createElement("figcaption");
+        captionElement.innerText = works.title;
+
     }
 
 }
