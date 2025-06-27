@@ -1,7 +1,6 @@
 // Récupération des travaux depuis l'API
 const reponse = await fetch("http://localhost:5678/api/works/");
 const works = await reponse.json();
-console.log(works)
 
 // Fonction pour créer les fiches des travaux
 function generateWorks(works) {
