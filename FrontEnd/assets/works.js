@@ -11,6 +11,9 @@ function generateWorks(works) {
         const sectionGallery = document.querySelector(".gellery");
         // Création d'une balise dédier à un travail
         const workElement = document.createElement("figure");
+        // Création des balises de contenu
+        const immageElement = document.createElement("img");
+        const captionElement = document.createElement("figcaption");
     }
 
 }
