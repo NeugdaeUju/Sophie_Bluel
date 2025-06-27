@@ -6,6 +6,9 @@ works = await reponse.json();
 function generateWorks(works) {
     for(let i = 0 ; i < works.length ; i++ ) {
         const article = works[i];
+
+        // Récupértion de l'élément du DOM qui accueillera les élements
+        const sectionGallery = document.querySelector(".gellery");
     }
 
 }
