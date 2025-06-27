@@ -27,3 +27,11 @@ function generateWorks(works) {
 
 // Appel de la fonction pour générer la gallery dynamiquement
 generateWorks(works);
+
+
+// Filtrer les travaux par catégories
+
+// Récupération des catégories
+const reponseCat = await fetch ("http://localhost:5678/api/categories/");
+const categories = await reponseCat.json();
+console.log(categories);
