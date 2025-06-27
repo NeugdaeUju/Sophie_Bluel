@@ -17,6 +17,11 @@ function generateWorks(works) {
         const captionElement = document.createElement("figcaption");
         captionElement.innerText = works.title;
 
-    }
+        // On rattache la balise figure à la gallerie
+        sectionGallery.appendChild(workElement);
+        // On rattache les éléments à la balise figure
+        workElement.appendChild(imageElement);
+        workElement.appendChild(captionElement);
+    };
 
 }
